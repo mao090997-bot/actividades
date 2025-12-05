@@ -1,0 +1,217 @@
+.contenedor {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.caja {
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* 1.color por nombre*/
+.caja1 {
+    background-color: blue;
+}
+
+/* 1.color hexadecimal*/
+.caja2 {
+    background-color: #00ff00;
+}
+
+/* 3.color RGB */
+.caja3 {
+    background-color: rgb(0, 200, 0);
+}
+/*color rgba con transparencia */
+.caja4 {
+    background-color: rgba(156, 17, 297, 0.09);
+}
+
+ .contenedor2 {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(60deg, rgb(70, 16, 151), rgb(186, 224, 18));
+        }
+.imagen {
+    width: 100%;
+    height: 300px;
+    /*imagen de fondo*/
+    background-image: url("imagenes/Android19.webp");
+
+    /* 1.que no se repita */
+    background-repeat: no-repeat;
+
+    /*que se ajuste al tamaño del contenedor */
+    background-size: cover;
+    /*centrada */
+    background-position: center;
+    
+}        
+ .fondo {
+            width: 100px;
+            height: 300px;
+            margin: 20px;
+            background-color: rgb(170, 220, 169);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: rgb(201, 55, 55);
+           
+        }
+
+.cajacon {
+            width: 100px;
+            height: 300px;
+            margin: 20px;
+            background-color: rgba(255, 45, 1188, 0.1); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: rgb(75, 27, 27);
+            
+        }
+ .caja-hex, .caja-rgb {
+            width: 200px;
+            height: 200px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        /* Color hexadecimal */
+        .caja-hex {
+            background-color: #3498db;
+        }
+
+        /* Color en RGB (equivalente) */
+        .caja-rgb {
+            background-color: rgb(52, 152, 219);
+        }        
+.paleta {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 1. color hexadecimal */
+.hex {
+    background: #3498db;
+}
+
+/* 2. color por nombre */
+.nombre {
+    background: blue;
+}
+
+/* 3. color RGB */
+.rgb {
+    background: rgb(255, 99, 71);
+}
+
+/* 4. color RGBA (con transparencia) */
+.rgba {
+    background: rgba(46, 204, 113, 0.7);
+}
+
+/* 5. RGB con porcentajes */
+.porcentaje {
+    background: rgb(50%, 20%, 70%);
+}
+.encabezado {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+    /* Imagen de fondo */
+    background-image: url("imagenes/gohan.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Capa semitransparente encima del fondo */
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4); /* negro 40% transparente */
+}
+
+/* Contenido encima de la capa */
+.contenido {
+    position: relative;
+    color: rgb(173, 44, 44);
+    text-align: center;
+    z-index: 1;
+}
+
+.contenido h2 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.contenido p {
+    font-size: 18px;
+}
+.banner {
+    width: 100%;
+    max-width: 600px;
+    height: 120px;
+    margin: 40px auto;
+    padding: 20px;
+    
+
+    /* Gradiente lineal del fondo */
+    background: linear-gradient(180deg, #44015b, #1f0a0f);
+
+    /* Imagen decorativa */
+    background-image: url("imagenes/Shin_en_Bucchigiri_Match.webp");
+    background-repeat: no-repeat;
+    background-position: right 20px center; /* ubicamos la imagen */
+    background-size: 50px; /* tamaño de la imagen */
+
+border: 3px solid rgb(201, 55, 55);
+    border-radius: 87px;
+    display: flex;
+    align-items: center;
+}
+
+/* Texto del banner */
+.banner-text {
+    color: rgb(95, 37, 37); /* contraste para buena legibilidad */
+    font-size: 34px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
