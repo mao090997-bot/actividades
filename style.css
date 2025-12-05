@@ -215,3 +215,37 @@ border: 3px solid rgb(201, 55, 55);
     font-family: Arial, sans-serif;
     margin: 0;
 }
+.gradientes {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.caja {
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* 1. Gradiente lineal horizontal */
+.gradiente-horizontal {
+    background: linear-gradient(to right, #ff7f50, #ff1493);
+}
+
+/* 2. Gradiente lineal en ángulo */
+.gradiente-angulo {
+    background: linear-gradient(45deg, #1e90ff, #32cd32);
+}
+
+/* 3. Gradiente radial */
+.gradiente-radial {
+    background: radial-gradient(circle, #f39c12, #d35400);
+}
